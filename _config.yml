@@ -1,15 +1,18 @@
 # Site settings
-title:       Pixyll
-email:       your_email@example.com
-author:      John Otander
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
+title:       Nada's Blog
+email:       nada.saif7@gmail.com
+author:      Nada Ghanem
+description: "This blog will hold dailly posts of technology and life experiance"
 baseurl:     ""
-url:         "http://pixyll.com"
+url:         "nada_ghanem.io"
 date_format: "%b %-d, %Y"
+#highlighter:  "pygments"
+highlighter:   rouge
+encoding:     "utf-8"
+paginate: 10
 header_pages:
  - about.md
  - contact.html
-
 # Google services
 google_verification:
 # Use either direct GA implementation or set up GTM account
